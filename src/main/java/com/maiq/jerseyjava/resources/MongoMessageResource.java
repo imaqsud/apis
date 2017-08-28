@@ -11,6 +11,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.maiq.jerseyjava.model.MongoMessage;
 import com.maiq.jerseyjava.service.MongoMessageService;
+import com.mongodb.DBObject;
 
 @Path("/mongomessages")
 @Consumes(MediaType.APPLICATION_JSON)
